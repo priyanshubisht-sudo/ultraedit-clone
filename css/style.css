@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+}
+
+figure {
+    width: 50%;
+    height: auto;
+    padding-left: 1rem;
+}
+
+.header {
+    margin: 1rem 5rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 0.3rem;
+}
+
+.nav1__ul,
+.nav2__ul {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3rem;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.nav1 {
+    padding-right: 11rem;
+}
+
+.nav2 {
+    padding-right: 2rem;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.download {
+    background-color: rgb(255, 238, 0);
+    padding: 0.7rem;
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 10px;
+}
+
+.english {
+    background-color: whitesmoke;
+    padding: 0.7rem;
+}
+
+.nav2__ul {
+    gap: 1rem;
+}
+
+.nav2__ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2__ul li svg {
+    display: block;
+    width: 1.2rem;
+    height: auto;
+}
+
+.heading {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.heading img {
+    width: 60px;
+    height: auto;
+}
+
+.down_UE {
+    font-size: 1.7rem;
+}
+
+.version {
+    padding-top: 0.5rem;
+    margin-left: -0.3rem;
+    font-size: 1rem;
+    color: gray;
+}
+
+
+.card1 {
+    width: 330px;
+    height: 190px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    /* margin-left: 10rem; */
+    position: relative;
+
+}
+
+.card1 p {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.capsules {
+    display: flex;
+    flex-direction: row;
+}
+
+.capsule1 {
+    width: 130px;
+    height: 35px;
+    background-color: rgb(0, 204, 255);
+    border: 0px solid black;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+
+}
+
+.capsule2 {
+    width: 130px;
+    height: 35px;
+    background-color: rgb(0, 202, 61);
+    border: 0px solid black;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+
+}
+
+.capsule1 p {
+    display: flex;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+    place-content: center;
+    margin-top: 0.6rem;
+
+
+}
+
+.capsule2 p {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 0.6rem;
+}
+
+.card1 .region {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: gray;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 2rem;
+
+}
