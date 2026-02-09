@@ -1,77 +1,61 @@
-﻿# ultraedit-clone
+# UltraEdit Download Page Clone
 
-UltraEdit Download Page Clone
+This project is a simple clone of the **UltraEdit download page** created using **HTML and CSS**.  
+It is a beginner-friendly frontend project focused on practicing webpage layout and styling.
 
-This is a simple frontend project where I recreated the UltraEdit download page using only HTML and CSS.
-The goal of this project was to practice page layout, styling, and responsiveness.
+No JavaScript or backend code is used.
 
-No JavaScript is used in this project.
+## 📌 Project Overview
 
-🌱 What This Project Does
+- Static webpage built with HTML and CSS
+- Inspired by the UltraEdit download page
+- Responsive layout for different screen sizes
+- Clean and easy-to-understand code
 
-Shows a download page similar to UltraEdit
+## 🛠️ Technologies Used
 
-Uses basic HTML structure
+- HTML5  
+- CSS3  
 
-Uses CSS for layout and design
+## 📂 Project Structure
 
-Works on different screen sizes
-
-🧰 Technologies Used
-
-HTML
-
-CSS
-
-That’s all — no frameworks, no libraries.
-
-📁 Project Files
 UltraEdit-Clone/
 │
-├── index.html        → Main HTML file
-├── style.css         → CSS styling
-└── assets/           → Images and other files (if any)
+├── index.html
+├── style.css
+└── assets/
 
-▶️ How to Run the Project
 
-Download or clone the repository
+## ▶️ How to Run the Project
 
-Open the folder
+1. Clone or download the repository  
+2. Open the project folder  
+3. Open `index.html` in any web browser  
 
-Double-click on index.html
+That’s it, no installation or setup required.
 
-The page will open in your browser
+## 🎯 Purpose of the Project
 
-No setup required.
+This project was made to:
 
-🎯 Why I Made This
+- Practice HTML structure
+- Improve CSS styling and layout skills
+- Understand how real download pages are designed
 
-I made this project to:
+## 🧠 What I Learned
 
-Practice HTML and CSS
+- Structuring a webpage using HTML
+- Styling layouts using CSS
+- Creating responsive designs without frameworks
 
-Understand how real websites are structured
+## ⚠️ Disclaimer
 
-Improve my frontend skills
+This project is created **only for learning purposes**.  
+It is **not affiliated with or endorsed by UltraEdit**.  
+All trademarks and brand names belong to their respective owners.
 
-🧠 What I Learned
+## 🚀 Future Improvements
 
-How to structure a webpage using HTML
-
-How to style elements using CSS
-
-How to create a responsive layout
-
-⚠️ Disclaimer
-
-This project is made only for learning purposes.
-It is not an official UltraEdit website.
-All logos and names belong to their respective owners.
-
-📌 Future Improvements
-
-Add JavaScript for interactions
-
-Improve mobile responsiveness
-
-Add animations or hover effects
+- Add JavaScript for interactivity
+- Improve accessibility
+- Add animations and hover effects
